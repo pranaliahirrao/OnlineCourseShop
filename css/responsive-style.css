@@ -1,6 +1,5 @@
 /* media Query 1170 px */
 @media (max-width:1170px) {
-
     /* General CSS */
     .section-subtitle {
         max-width: 60%;
@@ -11,16 +10,13 @@
         background-size: cover;
         padding: 2rem;
     }
-
     .header .navbar-nav {
         margin-top: 2rem;
     }
-
     .header .navbar-nav .nav-link {
         padding: 0.2rem 0.5rem;
         margin-bottom: 1rem;
     }
-
     .header .header_right span {
         padding: 0.2rem 0.5rem;
     }
@@ -29,30 +25,30 @@
     .banner_section .carousel-item {
         height: 90vh;
     }
+
+    .extra_section .info h1{
+        font-size: 6rem;
+    }
+     
 }
 
 /* Media Query 991px */
 @media (max-width:991px) {
-
     /* 01 Navbar CSS */
     .header .navbar {
         background-size: cover;
         padding: 1rem 2rem;
     }
-
     .header .navbar-nav {
         margin-top: 2rem;
     }
-
     .header .navbar-nav .nav-link {
         padding: 0.2rem 0.5rem;
         margin-bottom: 1rem;
     }
-
     .header .header_right span {
         padding: 0.2rem 0.5rem;
     }
-
 
     /* General CSS */
     .about .banner_section,
@@ -62,17 +58,26 @@
         padding-top: 12.5rem;
         padding-bottom: 3rem;
     }
+    /* Extra Section */
+    .extra_section .container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    .extra_section .info,
+    .extra_section .image {
+        height: 100%;
+        max-width: 100%; /* Full width for smaller screens */
+        margin-right: 0; /* No margin on smaller screens */
+        margin-bottom: 2rem; /* Add some bottom margin for spacing */
+    }
 }
 
 /* Media Query 767px */
 @media (max-width:767px) {
-
     /* General CSS */
     body,
     html {
         font-size: 8px;
     }
-
     .section-subtitle {
         max-width: 80%;
     }
@@ -81,7 +86,6 @@
     .banner_section {
         min-height: 70vh;
     }
-
     .banner_section .carousel-item {
         height: 70vh;
     }
