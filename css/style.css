@@ -309,59 +309,30 @@ section {
 }
 
 /* 03  -> Feature Section */
-
-/* .feature_section .features-box .features-icon {
-    height: 6.5rem;
-    width: 6.5rem;
-    background-color: var(--light-color);
-    margin: auto;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 .feature_section .features-box {
     height: 250px;
     width: 200px;
     border-radius: 2rem;
     background-color: transparent;
     border: 0.3rem solid var(--light-color);
-    /* padding: 8rem 0; */
     transition: all 0.3s;
 }
-
- /* .feature_section .features-box .features-icon-border {
-    background-color: transparent;
-    border-radius: 50%;
-    border: 0.2rem solid var(--light-color);
-    padding: 1.3rem;
-    display: inline-block;
-} */
-
 .feature_section .features-box .features-icon img {
     height: 150px;
    padding: 0.5rem;
    border-radius: 2rem;
 }
-
 .feature_section .features-box h3 {
     margin-top: 1.5rem;
     color: var(--primary-text);
 }
-
 .feature_section .features-box:hover {
     background-color: #03262c;
     border-color: #03262c;
 }
-
 .feature_section .features-box:hover h3 {
     color: #fff;
 }
-
-/* .feature_section .features-box:hover .features-icon-border {
-    border-color: #36970e;
-}  */
- 
 
  /* 04  -> Extra start  */
  .extra_section{
@@ -371,17 +342,14 @@ section {
     background-size: cover;
     min-height: 70vh;
 }
-
 .extra_section .container{
     display: flex;
 }
-
 .extra_section .info,
 .extra_section .image{
     max-width: 40vw;
     margin-right: 2rem;
 }
-
 hr{
     margin: 2rem;
     color: var(--bg-white);
@@ -396,7 +364,6 @@ hr{
     background-position: right;
     padding: 9rem 0;
 }
-
 .landing_about_section p {
     color: var(--primary-text);
     margin-bottom: 2rem;
@@ -411,27 +378,22 @@ hr{
     padding-top: 15rem;
     padding-bottom: 0rem;
 }
-
 .footer_wrapper h5 {
     color: var(--text-white);
     font-size: 2.5rem;
     margin-bottom: 1.25rem;
 }
-
 .footer_wrapper ul li {
     margin-bottom: 0.5rem;
     list-style: none;
 }
-
 .footer_wrapper .company_details {
     font-size: 1.4rem;
 }
-
 .footer_wrapper .contact-info li a {
     color: var(--text-gray);
     font-size: 1.6rem;
 }
-
 .footer_wrapper .link-widget li a,
 .footer_wrapper p {
     color: var(--text-gray);
@@ -441,7 +403,6 @@ hr{
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
 }
-
 .footer_wrapper .link-widget li a::before {
     content: '\f105';
     font-family: "Font Awesome 5 Free";
@@ -452,7 +413,6 @@ hr{
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-
 .footer_wrapper .link-widget li a:hover {
     margin-left: .625rem;
     color: var(--secondary-color);
@@ -471,7 +431,6 @@ hr{
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
 .footer_wrapper .social-network a:hover {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
@@ -479,40 +438,48 @@ hr{
     box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
     transform: translateY(-0.1875rem);
 }
-
 .footer_wrapper .form-control {
     font-size: 2rem;
     color: white;
 }
-
 .footer_wrapper .form-control:focus {
     outline: none;
     box-shadow: none;
     border-color: var(--secondary-color);
 }
-
 .footer_wrapper .copyright-section {
     background-color: var(--secondary-color);
     text-align: center;
     margin-top: 5rem;
 }
-
 .footer_wrapper .copyright-section p {
     margin-top: 0;
     padding: 3rem 0;
     line-height: 0;
 }
-
 .footer_wrapper .copyright-section a {
     color: var(--primary-text);
     font-weight: 600;
 }
 
-
-/*  ABOUT us - Page  */
+/*  About Us - Page  */
 .about_banner .banner-content{
     margin-top: 20rem;
     margin-left: 10rem;
 }
 
 
+/* Courses Page*/
+.courses_section .container .course_row{
+    margin: 2rem;
+}
+.courses_section .container .course_row .course-card .card{
+    width: 250px;
+    /* height: 300px; */
+}
+
+.courses_section .container .course_row .course-card .card img{
+    padding: 1rem;
+    width: 250px;
+    height: 150px;
+}

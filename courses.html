@@ -1,37 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnlineCourseShop</title>
-    <link rel="shortcut icon" href="./images/favicon.jpeg" type="image/x-icon">
-    <!-- Bootstrap 5 CDN link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Font Awesome Cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnlineCourseShop</title>
+  <link rel="shortcut icon" href="./images/favicon.jpeg" type="image/x-icon">
+  <!-- Bootstrap 5 CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Font Awesome Cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Style Css -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive-style.css">
+  <!-- Style Css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive-style.css">
 </head>
 
 <body>
 
-    <h1>Courses Page</h1>
+  <!-- Header - Start -->
+  <header id="full_nav">
+    <div class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="logo" class="logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="cart.html">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="header_right">
+              <div class="text-lg-end">
+                <span>Call Us!!</span>
+                <span class="phone_no">+91 1234098765</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Header - End -->
+
+  <!-- banner Section start -->
+  <section class="banner_section about_banner">
+    <div class="container">
+      <div class="banner-content">
+        <h1>Courses</h1>
+      </div>
+    </div>
+  </section>
+  <!-- banner section exit -->
+
+  <!-- Courses section - start  -->
+  <section class="courses_section">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 course_row">
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course1.jpeg" class="card-img-top" alt="Course 1">
+            <div class="card-body">
+              <h5 class="card-title">Course 1</h5>
+              <p class="card-text">Description of Course 1.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course2.jpeg" class="card-img-top" alt="Course 2">
+            <div class="card-body">
+              <h5 class="card-title">Course 2</h5>
+              <p class="card-text">Description of Course 2.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course3.png" class="card-img-top" alt="Course 3">
+            <div class="card-body">
+              <h5 class="card-title">Course 3</h5>
+              <p class="card-text">Description of Course 3.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course4.jpeg" class="card-img-top" alt="Course 4">
+            <div class="card-body">
+              <h5 class="card-title">Course 4</h5>
+              <p class="card-text">Description of Course 4.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 course_row">
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course5.jpeg" class="card-img-top" alt="Course 5">
+            <div class="card-body">
+              <h5 class="card-title">Course 1</h5>
+              <p class="card-text">Description of Course 1.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course6.jpeg" class="card-img-top" alt="Course 6">
+            <div class="card-body">
+              <h5 class="card-title">Course 2</h5>
+              <p class="card-text">Description of Course 2.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course7.jpeg" class="card-img-top" alt="Course 7">
+            <div class="card-body">
+              <h5 class="card-title">Course 3</h5>
+              <p class="card-text">Description of Course 3.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course8.jpeg" class="card-img-top" alt="Course 8">
+            <div class="card-body">
+              <h5 class="card-title">Course 4</h5>
+              <p class="card-text">Description of Course 4.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 course_row">
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course9.jpeg" class="card-img-top" alt="Course 9">
+            <div class="card-body">
+              <h5 class="card-title">Course 1</h5>
+              <p class="card-text">Description of Course 1.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course10.jpeg" class="card-img-top" alt="Course 10">
+            <div class="card-body">
+              <h5 class="card-title">Course 2</h5>
+              <p class="card-text">Description of Course 2.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course11.jpeg" class="card-img-top" alt="Course 11">
+            <div class="card-body">
+              <h5 class="card-title">Course 3</h5>
+              <p class="card-text">Description of Course 3.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course12.jpeg" class="card-img-top" alt="Course 12">
+            <div class="card-body">
+              <h5 class="card-title">Course 4</h5>
+              <p class="card-text">Description of Course 4.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 course_row">
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course13.jpeg" class="card-img-top" alt="Course 13">
+            <div class="card-body">
+              <h5 class="card-title">Course 1</h5>
+              <p class="card-text">Description of Course 1.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course14.png" class="card-img-top" alt="Course 14">
+            <div class="card-body">
+              <h5 class="card-title">Course 2</h5>
+              <p class="card-text">Description of Course 2.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course15.jpeg" class="card-img-top" alt="Course 15">
+            <div class="card-body">
+              <h5 class="card-title">Course 3</h5>
+              <p class="card-text">Description of Course 3.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col course-card">
+          <div class="card">
+            <img src="./images/courses/course16.jpeg" class="card-img-top" alt="Course 16">
+            <div class="card-body">
+              <h5 class="card-title">Course 4</h5>
+              <p class="card-text">Description of Course 4.</p>
+              <a href="#" class="btn btn-primary main-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Courses section - end  -->
 
 
 
 
 
-    
 
 
 
 
-     <!-- Bootstrap 5 CDN -->
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-     <!-- Custom JS -->
-     <script src="js/"></script>
+  <!-- Footer section Start-->
+  <section class="footer_wrapper mt-3 mt-md-0">
+    <div class="container px-5 px-lg-0">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+          <h5>ENARK</h5>
+          <p class="mb-4 ps-0 company_details">Enark is India's first Premium Institute of Training and Development for
+            Educators.
+            It aims to enhance skill of Pre-Primary & Primary teachers.</p>
+          <div class="contact-info">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="fa fa-home me-3"></i>No.123, Bavdhan, Pune</a></li>
+              <li><a href="#"><i class="fa fa-phone me-3"></i>+91 1234098765</a></li>
+              <li><a href="#"><i class="fa fa-envelope me-3"></i>hr@enark.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+          <h5>Customer Support</h5>
+          <ul class="link-widget p-0">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Product Returns</a></li>
+            <li><a href="#">Wholesale Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+          <h5>Quick Links</h5>
+          <ul class="link-widget p-0">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Term Of Use</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+          <h5>Newsletter</h5>
+          <div class="form-group mb-4">
+            <input type="email" class="form-control bg-transparent" placeholder="Enter Your Email Here">
+            <button type="submit" class="btn main-btn">Join Us</button>
+          </div>
+          <h5>Stay Connected</h5>
+          <ul class="social-network d-flex align-items-center p-0">
+            <li><a href="https://www.facebook.com/enarkinstitute"><i class="fa-brands fa-facebook"></i></i></a></li>
+            <li><a href="https://www.instagram.com/enark.in/"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/enark-training-and-development-for-educators/"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCiu8BFkxSTYvXUCGG0AM8fw"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid copyright-section">
+      <p>Copyright <a href="https://www.enark.in/" target="_blank">© ENARK .</a> All Rights Reserved.</p>
+    </div>
+  </section>
+  <!-- Footer Section Exit  -->
+
+
+  <!-- Bootstrap 5 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
