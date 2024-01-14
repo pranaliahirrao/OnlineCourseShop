@@ -388,6 +388,16 @@ hr{
 }
 
 
+/*  05  -  About Section  */
+.landing_about_section {
+    background: url('../images/favicon.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding: 9rem 0;
+}
 
-
-
+.landing_about_section p {
+    color: var(--primary-text);
+    margin-bottom: 2rem;
+}

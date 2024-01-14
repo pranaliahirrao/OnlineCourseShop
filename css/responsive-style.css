@@ -26,10 +26,12 @@
         height: 90vh;
     }
 
+    /* 04  - Extra Section */
     .extra_section .info h1{
         font-size: 6rem;
-    }
-     
+    }   
+
+    /*  05 - About Section  */
 }
 
 /* Media Query 991px */
@@ -58,9 +60,10 @@
         padding-top: 12.5rem;
         padding-bottom: 3rem;
     }
-    /* Extra Section */
+
+    /* 04  - Extra Section */
     .extra_section .container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column; 
     }
     .extra_section .info,
     .extra_section .image {
