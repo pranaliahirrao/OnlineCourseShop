@@ -269,7 +269,6 @@ section {
     max-width: 1320px;
     margin: auto;
     z-index: 999;
-    /* box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%); */
     transition: 0.3s all ease-in-out;
 }
 
@@ -469,13 +468,12 @@ hr{
 }
 
 
-/* Courses Page*/
+/*  Courses Page  */
 .courses_section .container .course_row{
     margin: 2rem;
 }
 .courses_section .container .course_row .course-card .card{
     width: 250px;
-    /* height: 300px; */
 }
 
 .courses_section .container .course_row .course-card .card img{
@@ -483,3 +481,15 @@ hr{
     width: 250px;
     height: 150px;
 }
+
+
+/*  Cart Page  */
+.cart_section .container ul{
+    font-size: 1.8rem;
+}
+
+.cart_section .container button:focus{ 
+    outline: none;
+    box-shadow: none;
+}
+
