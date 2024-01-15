@@ -487,9 +487,57 @@ hr{
 .cart_section .container ul{
     font-size: 1.8rem;
 }
-
 .cart_section .container button:focus{ 
     outline: none;
     box-shadow: none;
 }
+
+
+/*  Contact Page */
+.contact .contact-form{
+    background-color: var(--light-color);
+    padding: 5rem;
+}
+.contact .contact-form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.contact .contact-form .form-control::placeholder {
+    color: var(--primary-text);
+}
+.contact .contact-form .form-control{
+    padding: 1rem 1.5rem;
+    border: 0/1rem solid var(--secondary-font);
+    color: var(--primary-text);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
+.contact .contact-form .info-box li{
+    position: relative;
+    padding-left: 7rem;
+    padding-bottom: 3.5rem;
+    margin-bottom: 2.9rem;
+}
+.contact .contact-form .info-box li i{
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    color: var(--primary-text);
+}
+.contact .contact-form .info-box li p{
+    color: var(--primary-text);
+}
+.contact .contact-form .info-box li a{
+    color: var(--dark-color);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
+
+
+
+
 
